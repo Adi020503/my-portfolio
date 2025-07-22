@@ -80,9 +80,10 @@ body {
 }
 
 .home-content p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   max-width: 600px;
-  margin: 0 auto 30px;
+  margin: 10px auto;
+  line-height: 1.6;
 }
 
 .btn {
@@ -397,4 +398,101 @@ body {
   border: 4px solid #C62300;
   margin: 0 auto 20px;
   display: block;
+}
+
+/* Skills & Stats Section */
+.skills {
+  background-color: #500073;
+  color: white;
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  color: #F14A00;
+  margin-bottom: 40px;
+}
+
+/* Stats */
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.stat h3 {
+  font-size: 2.5rem;
+  color: #F14A00;
+}
+
+.stat p {
+  font-size: 1.1rem;
+  color: #f3f3f3;
+  margin-top: 10px;
+}
+
+/* Tech Stack */
+.tech-skills {
+  margin-top: 60px;
+}
+
+.tech-skills h3 {
+  font-size: 1.8rem;
+  color: #F14A00;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skills-list li {
+  background-color: #2A004E;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.skills-list li:hover {
+  background-color: #C62300;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .stats-grid {
+    flex-direction: column;
+  }
+
+  .skills-list li {
+    font-size: 0.95rem;
+  }
+}
+
+.home-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid #F14A00;
+  color: #F14A00;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background-color: #F14A00;
+  color: white;
 }

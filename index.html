@@ -6,6 +6,7 @@
   <title>Aditya's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
 </head>
 <body>
 
@@ -23,31 +24,79 @@
     </nav>
   </header>
 
-  <!-- Home Section -->
-  <section class="home" id="home">
-    <div class="home-content">
-      <h1>Hi, I'm <span>Aditya</span></h1>
-      <p>A passionate Frontend Developer crafting digital experiences with HTML, CSS, and JS.</p>
-      <a href="#projects" class="btn">View Projects</a>
+<!-- Home Section -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h1>Hi, I'm <span>Aditya Agrawal</span></h1>
+    <p>
+      Full Stack Developer | AI Enthusiast | Tech Leader
+    </p>
+    <p>
+      I build intelligent, scalable web applications and AI-powered tools that solve real-world problems.
+    </p>
+    <br>
+    <div class="home-buttons">
+      <a href="#projects" class="btn">Explore My Work</a>
+      <a href="Aditya_agrawalResume (2).pdf" download class="btn secondary-btn">Download Resume</a>
     </div>
-  </section>
+  </div>
+</section>
+
 
 <!-- About Section -->
-<section class="about" id="about">
+<section id="about" class="about">
   <div class="about-container">
+    <img src="mypic.jpg" alt="Aditya Profile Picture" class="profile-pic" />
     
-    <!-- Profile Picture Above Text -->
-    <div class="about-text">
-      <img src="mypic.jpg" alt="Aditya Profile" class="profile-pic" />
+    <div class="about-content">
       <h2>About Me</h2>
       <p>
-        I'm Aditya Agrawal, a self-driven Frontend Developer with a flair for crafting immersive digital experiences. With a strong command over HTML, CSS, and JavaScript, I specialize in turning complex ideas into elegant, user-centric web solutions.
+        I'm Aditya Agrawal, a B.Tech Computer Engineering student at NMIMS Indore with hands-on experience in Full Stack Development and AI automation. I’ve built voice-based AI chatbots, scalable MERN applications, and chatbot interfaces using LangChain, LLMs, and NLP frameworks.
       </p>
       <p>
-        I’ve collaborated on multiple web design prototypes, optimizing for responsiveness, performance, and accessibility. When I'm not coding, I enjoy exploring creative storytelling through visuals and reading about emerging technologies.
+        I've interned with KreupAI (Dubai), VKAPS IT (Indore), and IBM (Pune), where I worked on technologies ranging from Dockerized MERN stacks to AS400 systems. Whether it’s building intelligent interfaces or crafting APIs, I focus on reliability, performance, and innovation.
       </p>
+      <p>
+        Outside of tech, I’m the Captain of the NMIMS Cricket Team and actively lead as a core member of multiple college clubs including GDSC and the Sports Club ALPHALETE.
+      </p>
+      <a href="#contact" class="btn">Let's Connect</a>
     </div>
+  </div>
+</section>
 
+<!-- Skills & Stats Section -->
+<section id="skills" class="skills">
+  <h2>Skills & Stats</h2>
+
+  <div class="stats-grid">
+    <div class="stat">
+      <h3><span class="counter" data-target="12">0</span>+</h3>
+      <p>Projects Completed</p>
+    </div>
+    <div class="stat">
+      <h3><span class="counter" data-target="3">0</span></h3>
+      <p>Internships</p>
+    </div>
+    <div class="stat">
+      <h3><span class="counter" data-target="8">0</span>+</h3>
+      <p>Technologies Mastered</p>
+    </div>
+  </div>
+
+  <div class="tech-skills">
+    <h3>Tech Stack</h3>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>MongoDB</li>
+      <li>LangChain</li>
+      <li>Python</li>
+      <li>OpenAI API</li>
+    </ul>
+  </div>
 </section>
 
 
@@ -59,31 +108,50 @@
   </div>
 
   <div class="project-grid">
+
+    <!-- Project 1 -->
     <div class="project-card">
-      <h3>TravelXplorer</h3>
-      <p>A sleek travel website featuring top destinations, booking forms, and responsive design.</p>
-      <a href="#" class="btn">View Demo</a>
+      <video controls width="100%" poster="thumb-vocalix.jpg">
+        <source src="vocalix.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Vocal!X – Voice AI Chatbot</h3>
+      <p>A real-time voice-driven chatbot built with Streamlit. It listens, processes, and responds automatically in a continuous loop until the user says goodbye.</p>
     </div>
 
+    <!-- Project 2 -->
     <div class="project-card">
-      <h3>FitFusion App</h3>
-      <p>A dynamic fitness landing page with embedded workout videos and custom CSS animations.</p>
-      <a href="#" class="btn">View Demo</a>
+      <video controls width="100%" poster="thumb-moodtunes.jpg">
+        <source src="musicrecommender.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>MoodTunes – Emotion-Based Music Recommender</h3>
+      <p>A music recommender built using emotion recognition and Streamlit. Suggests songs that align with your emotional state for a personalized experience.</p>
     </div>
 
+    <!-- Project 3 -->
     <div class="project-card">
-      <h3>CryptoPulse</h3>
-      <p>A real-time cryptocurrency dashboard built using APIs, showcasing live coin prices and graphs.</p>
-      <a href="#" class="btn">View Demo</a>
+      <video controls width="100%" poster="thumb-travelx.jpg">
+        <source src="travelwebsite.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>TravelX – Responsive Travel Website</h3>
+      <p>A visually stunning travel website with interactive destinations, responsive layout, and intuitive booking interface using HTML, CSS, and JS.</p>
     </div>
 
+    <!-- Project 4 -->
     <div class="project-card">
-      <h3>EduLearn</h3>
-      <p>An education-themed portal with responsive layouts and interactive content blocks.</p>
-      <a href="#" class="btn">View Demo</a>
+      <video controls width="100%" poster="thumb-worklabs.jpg">
+        <source src="worklabs.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>WorkLabs – Job Discovery Android App</h3>
+      <p>An Android app that helps job seekers find roles based on skills and preferences. Designed for accessibility and smart job filtering.</p>
     </div>
+
   </div>
 </section>
+
 
 <!-- Contact Section -->
 <section class="contact" id="contact">
@@ -102,8 +170,8 @@
 
     <div class="contact-info">
       <h3>Let’s Talk</h3>
-      <p><strong>Email:</strong> aditya.dev@fictionmail.com</p>
-      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Email:</strong> adityaagrawal020503@gmail.com</p>
+      <p><strong>Phone:</strong> +91 83082 17811</p>
       <p><strong>Location:</strong> Indore, Madhya Pradesh, India</p>
     </div>
   </div>
@@ -112,6 +180,25 @@
 
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="script.js"></script> <!-- Make sure your JS is loaded after the ScrollReveal -->
+<script>
+  const counters = document.querySelectorAll('.counter');
+  counters.forEach(counter => {
+    counter.innerText = '0';
+    const updateCounter = () => {
+      const target = +counter.getAttribute('data-target');
+      const c = +counter.innerText;
+      const increment = target / 100;
+
+      if (c < target) {
+        counter.innerText = `${Math.ceil(c + increment)}`;
+        setTimeout(updateCounter, 20);
+      } else {
+        counter.innerText = target;
+      }
+    };
+    updateCounter();
+  });
+</script>
 
 </body>
 </html>
